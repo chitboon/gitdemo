@@ -11,5 +11,9 @@ def home():
 def home1():
     return render_template('home.html')
 
+@app.route('/user')
+def home2():
+    return render_template('home.html')
+
 if __name__ == '__main__':
     app.run()
